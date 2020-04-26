@@ -18,6 +18,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -35,5 +37,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "Homepage": "http://bsjeon87.github.io/example_for_react_bootstrap"
 }
