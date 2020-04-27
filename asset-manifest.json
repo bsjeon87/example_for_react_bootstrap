@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/example_for_react_bootstrap/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/example_for_react_bootstrap/static/js/main.1d2d4871.chunk.js",
-    "main.js.map": "/example_for_react_bootstrap/static/js/main.1d2d4871.chunk.js.map",
+    "main.js": "/example_for_react_bootstrap/static/js/main.c5a8d8e7.chunk.js",
+    "main.js.map": "/example_for_react_bootstrap/static/js/main.c5a8d8e7.chunk.js.map",
     "runtime-main.js": "/example_for_react_bootstrap/static/js/runtime-main.bba34f1a.js",
     "runtime-main.js.map": "/example_for_react_bootstrap/static/js/runtime-main.bba34f1a.js.map",
     "static/js/2.baec8025.chunk.js": "/example_for_react_bootstrap/static/js/2.baec8025.chunk.js",
     "static/js/2.baec8025.chunk.js.map": "/example_for_react_bootstrap/static/js/2.baec8025.chunk.js.map",
     "index.html": "/example_for_react_bootstrap/index.html",
-    "precache-manifest.baec7dac594b48526826285fa970e6a4.js": "/example_for_react_bootstrap/precache-manifest.baec7dac594b48526826285fa970e6a4.js",
+    "precache-manifest.3be0507b992a81b901ee36bf1bbddf85.js": "/example_for_react_bootstrap/precache-manifest.3be0507b992a81b901ee36bf1bbddf85.js",
     "service-worker.js": "/example_for_react_bootstrap/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/example_for_react_bootstrap/static/css/main.5ecd60fb.chunk.css.map",
     "static/js/2.baec8025.chunk.js.LICENSE.txt": "/example_for_react_bootstrap/static/js/2.baec8025.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.bba34f1a.js",
     "static/js/2.baec8025.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.1d2d4871.chunk.js"
+    "static/js/main.c5a8d8e7.chunk.js"
   ]
 }
