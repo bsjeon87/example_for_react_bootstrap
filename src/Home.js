@@ -19,6 +19,10 @@ export class Home extends Component {
     tasks: []
   }
   componentDidMount(){
+
+    const id="2";
+    const delete_id="2";
+    var data={title:"ddr"}; //have to be obj
     const tasks = [...this.state.tasks];
      firestore.collection('tasks').get()
      .then(docs=>{
@@ -28,7 +32,19 @@ export class Home extends Component {
          this.setState({tasks});
        })
      });
+
+//add
+     firestore.collection('tasks').doc(id).set(data)
+     .then(()=>{console.log("추가")});
+//delete
+     firestore.collection('tasks').doc(delete_id).delete()
+       .then(()=>{console.log("삭제")});
   }
+
+
+
+
+
   render(){
     const tasks = [...this.state.tasks];
     return (
