@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import { Home } from './Home';
 import {About} from './About';
 import {Contact} from './Contact';
@@ -16,14 +16,14 @@ class App extends Component {
         <NavigationBar />
         <Jumbotron />
         <Layout>
-          <Router>
+          <HashRouter basename="/">
             <Switch>
               <Route exact path="/" component={Home}/>
               <Route path="/about" component={About}/>
               <Route path="/content" component={Contact}/>
               <Route component={NoMatch}/>
             </Switch>
-          </Router>
+          </HashRouter>
         </Layout>
         <InputComponent />
       </React.Fragment>
